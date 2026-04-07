@@ -1,0 +1,33 @@
+{
+  "use_model": false,
+  "use_hardware": true,
+  "sample_time_s": 1.0,
+  "run_duration_s": 600,
+  "initial_hold_range_s": [
+    20,
+    30
+  ],
+  "cooldown_duration_s": 60,
+  "n_runs_model": 248,
+  "n_runs_hardware": 24,
+  "hardware_start_temp_tolerance_degC": 1.5,
+  "hardware_stability_window_s": 20,
+  "hardware_stability_max_slope_degC_per_s": 0.03,
+  "hardware_wait_check_interval_s": 2,
+  "q1_min": 0.0,
+  "q1_max": 100.0,
+  "q2_min": 0.0,
+  "q2_max": 100.0,
+  "simulation_speedup": 100,
+  "plot_example_runs": 6,
+  "plot_family_overlays": true,
+  "max_overlay_runs_per_family": 5,
+  "dataset_name": "tclab_data_noc",
+  "dataset_version": "v1",
+  "export_base_dir": "data",
+  "write_parquet": true,
+  "write_csv_fallback": true,
+  "write_json_config": true,
+  "random_seed": 42,
+  "max_generation_attempts_per_run": 50
+}

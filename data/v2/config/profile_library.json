@@ -1,0 +1,66 @@
+{
+  "staggered_steps": {
+    "description": "Versetzte Treppenprofile für Q1 und Q2",
+    "n_segments_range": [
+      4,
+      5
+    ],
+    "segment_duration_range_s": [
+      40,
+      140
+    ],
+    "offset_range_s": [
+      20,
+      90
+    ],
+    "coordination_mode": "staggered"
+  },
+  "q1_dominant": {
+    "description": "Q1 ist Hauptanregung, Q2 begleitet schwächer",
+    "n_segments_range": [
+      4,
+      5
+    ],
+    "segment_duration_range_s": [
+      40,
+      150
+    ],
+    "offset_range_s": [
+      15,
+      80
+    ],
+    "coordination_mode": "q1_dominant"
+  },
+  "q2_dominant": {
+    "description": "Q2 ist Hauptanregung, Q1 begleitet schwächer",
+    "n_segments_range": [
+      4,
+      5
+    ],
+    "segment_duration_range_s": [
+      40,
+      150
+    ],
+    "offset_range_s": [
+      15,
+      80
+    ],
+    "coordination_mode": "q2_dominant"
+  },
+  "coordinated": {
+    "description": "Q1 und Q2 werden abschnittsweise gleichsinnig oder gegensinnig verändert",
+    "n_segments_range": [
+      4,
+      5
+    ],
+    "segment_duration_range_s": [
+      40,
+      130
+    ],
+    "offset_range_s": [
+      0,
+      30
+    ],
+    "coordination_mode": "coordinated"
+  }
+}
