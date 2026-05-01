@@ -29,6 +29,12 @@ The repository covers:
 - transfer of simulation models to real TCLab data
 - threshold recalibration and retraining on real normal-operation data
 
+## Authorship and AI assistance
+
+This repository was created and curated by Thomas Eichhorn for teaching process time-series analysis in the context of process automation and applied AI.
+
+Parts of the material were developed with support from ChatGPT (GPT-5.5). All AI-assisted content was reviewed, adapted, and integrated by Thomas Eichhorn.
+
 # Deutsche Version
 # TCLab FDD Simulation and Measurements
 
@@ -59,3 +65,8 @@ Das Repository behandelt:
 - Transfer von Simulationsmodellen auf reale TCLab-Daten
 - Schwellen-Neukalibrierung und Nachtraining auf realen Normaldaten
 
+## Autorenschaft und KI-Unterstützung
+
+Dieses Repository wurde von Thomas Eichhorn für die Lehre zur Analyse von Prozesszeitreihen im Kontext von Prozessautomation und angewandter KI erstellt und kuratiert.
+
+Teile des Materials wurden mit Unterstützung von ChatGPT (GPT-5.5) entwickelt. Alle KI-unterstützten Inhalte wurden von Thomas Eichhorn geprüft, angepasst und in das Lehrmaterial integriert.
